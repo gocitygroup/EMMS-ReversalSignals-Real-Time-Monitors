@@ -1,0 +1,8 @@
+# Core dependencies — required for both scripts
+numpy>=1.24.0
+
+# MetaTrader 5 Python API (Windows only — ships with MT5 terminal)
+# Install from the MT5 installation folder, e.g.:
+#   pip install "C:\Program Files\MetaTrader 5\scripts\MetaTrader5-5.0.xx.zip"
+# Or run:  pip install MetaTrader5
+MetaTrader5
