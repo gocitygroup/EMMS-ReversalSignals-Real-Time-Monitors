@@ -10,6 +10,40 @@ Usage:
     python ReversalSignals.py --realtime
     python ReversalSignals.py --realtime --socketio
     python ReversalSignals.py --realtime --setup Momentum --interval 30
+    
+    
+    
+    // @type        momentum phase varaibles
+//
+// @field bSC   (int) bullish momentum phase count
+// @field bSH   (float) bullish momentum phase high price value
+// @field bSL   (float) bullish momentum phase lowest price value
+//
+// @field sSC   (int) bearish momentum phase count
+// @field sSH   (float) bearish momentum phase highest price value
+// @field sSL   (float) bearish momentum phase low price value
+    
+    
+    
+    // @type        trend exhaustion phase varaibles
+//
+// @field bCC   (int) bullish trend exhaustion phase count
+// @field bC8   (float) bullish trend exhaustion phase 8 count's condition
+// @field bCHt  (float) bullish trend exhaustion phase highest price value
+// @field bCH   (float) bullish trend exhaustion phase high price value
+// @field bCL   (float) bullish trend exhaustion phase low price value
+// @field bCLt  (float) bullish trend exhaustion phase lowest price value
+// @field bCD   (float) bullish trend exhaustion phase risk price value
+//
+// @field sCC   (int) bearish trend exhaustion phase count
+// @field sC8   (float) bearish trend exhaustion phase 8 count's condition
+// @field sCHt  (float) bearish trend exhaustion phase highest price value
+// @field sCH   (float) bearish trend exhaustion phase high price value
+// @field sCL   (float) bearish trend exhaustion phase low price value
+// @field sCLt  (float) bearish trend exhaustion phase lowest price value
+// @field sCT   (float) bearish trend exhaustion phase target price value
+
+
 """
 
 from __future__ import annotations
